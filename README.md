@@ -14,3 +14,16 @@ list is an exception that contains objects of different classes.
 Inf-represent infinite no.
 NaN -Not a number
 NA -not applicable
+
+
+vectors and list
+c()-create vector of object
+>x<-c(0.2,0.4)    #numeric
+vector() function can also be used to do the same .
+When vector is created and they are of different classes then COECION happens.
+>s<-c(1,"true") ----then the result is character.
+Explisit coesion can also be done by using the function ----  as.classname
+for eg.->x<-c(1,2,3)
+    >as.logical(x)
+    [1] T T T
+    
